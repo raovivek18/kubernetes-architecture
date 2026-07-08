@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: kubeops-frontend:latest
+        image: kubeops-frontend:v2
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
