@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: kubeops-backend:latest
+        image: raovivek18/kubeops-backend:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
